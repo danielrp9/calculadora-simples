@@ -1,0 +1,72 @@
+/* Estilo de fundo gradiente chamativo */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #48C6EF, #6F86D6);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+/* Estilize o título da calculadora */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+
+.calculator {
+ background-color: #333;
+ border-radius: 19px;
+ width: 300px;
+ box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+ margin: 50px; /* Centraliza horizontalmente */
+    
+}
+
+.display {
+    padding: 10px;
+    text-align: right;
+}
+
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    font-size: 24px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    display: block; /* Transforme o input em um elemento de bloco */
+    margin:8 auto; /* Centralize horizontalmente usando flexbox */
+}
+
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #777;
+}
+
